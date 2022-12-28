@@ -1,0 +1,193 @@
+
+body {
+    background-image: url('./assets/sunset2.webp');
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    padding: 5rem;
+    
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ==================TOP CONTAINER====================== */
+.container1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    flex-direction: column;
+    /* align-items: center; */
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.triumph {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color:black
+}
+
+.header1 {
+    height: 5rem;
+    background-color: #0099bf;;
+    border-radius: 1rem 1rem 0px 0px;
+}
+
+.navbar {
+    padding-left: 2rem;
+    margin-top: 0.5rem;
+    background-color: whitesmoke;
+    border-bottom: solid #999;
+    border-top: solid #999;
+}
+/* h2 {
+    text-align: center;
+} */
+
+.home {
+    background-color: whitesmoke;
+    display: flex;
+    height: 15rem;
+    border-radius: 0rem 0rem 1rem 1rem;
+    
+}
+
+.home-image {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    flex: 2;
+    border-radius: 2rem;
+
+}
+.home-desc {
+padding: 1rem;
+flex: 1;
+background-color: whitesmoke;
+border-radius: 1rem;
+
+}
+.photo-container {
+background-color: whitesmoke;
+border-radius: 1rem;
+}
+
+.announcement-container1 {
+    background-color: lightgrey;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    height: 100%;
+    width: 100%;
+}
+
+/* ===================CONTAINER 2===================== */
+.container2 {
+    display: flex;
+    padding: 0.5rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container2 p {
+    margin-top: 1rem;
+}
+
+.triumph-pic {
+width: 65%;
+}
+
+
+/* ===================CONTAINER 3===================== */
+
+.container3 {
+    display: flex;
+    padding: 0.5rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    flex-direction: column;
+    background-color:whitesmoke;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    /* width: 75%; */
+}
+
+/* ===================CONTAINER 4===================== */
+
+.container4 {
+    display: flex;
+    padding: 0.5rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    /* width: 75%; */
+}
+
+
+
+
+
+/* =========EXTRA???=========== */
+/* img {
+    width: 100%;
+    height: 40vh;
+} */
+
+/* .logo {
+    height: 50%;
+    width: 20%;
+} */
+
+/* .header {
+    display: flex;
+
+} */
+
+/* ============Create new prayer request========== */
+.create {
+    max-width: 400px;
+    margin: 0 auto;
+    /* text-align: center; */
+  }
+  .create label {
+    text-align: left;
+    display: block;
+  }
+  .create h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #1d428a;
+    margin-bottom: 30px;
+  }
+  .create input, .create textarea, .create select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+  }
+  .create button {
+    background: #1d428a;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
